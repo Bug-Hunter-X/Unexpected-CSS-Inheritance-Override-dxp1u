@@ -1,0 +1,23 @@
+To resolve this, ensure that the specificity of the `.box` class selector is high enough to override the inheritance. This can be achieved by adding an additional selector to increase the specificity, or by using the !important flag (though it's generally recommended to avoid !important).  Here's the corrected CSS:
+
+```css
+.container {
+  background-color: red;
+}
+
+.box {
+  background-color: blue !important; /* Using !important to force override */
+}
+```
+
+Alternatively, using a more specific selector:
+
+```css
+.container {
+  background-color: red;
+}
+
+.container .box {
+  background-color: blue; /* Increased specificity by adding .container */
+}
+```
