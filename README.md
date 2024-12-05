@@ -1,0 +1,1 @@
+This repository demonstrates a subtle CSS bug related to specificity and inheritance. The bug.css file contains CSS that unexpectedly inherits a background color from a parent element despite having a more specific style rule defined. The bugSolution.css file shows how to correct this by ensuring the intended style takes precedence.
