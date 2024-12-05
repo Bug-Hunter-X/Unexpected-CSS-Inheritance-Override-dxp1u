@@ -1,0 +1,1 @@
+The following CSS code snippet demonstrates an unusual issue related to specificity and inheritance.  The `.box` class is expected to have a blue background, but it is instead inheriting the background color from its parent, even though the `.box` class has a more specific selector.
